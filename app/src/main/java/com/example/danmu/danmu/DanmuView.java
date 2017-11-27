@@ -56,10 +56,10 @@ public class DanmuView extends RelativeLayout{
         if(curPos == datas.size()){  //循环播放
             curPos = 0;
         }
-        MoveTextView moveTextView = new MoveTextView(getContext(),datas.get(curPos++));
-        addView(moveTextView);
-        moveTextView.randomVerticalPos(heightPixels);
-        startTranslateAnim(moveTextView);
+        MoveView moveView = new MoveView(getContext(),datas.get(curPos++));
+        addView(moveView);
+        moveView.randomVerticalPos(heightPixels);
+        startTranslateAnim(moveView);
     }
 
 

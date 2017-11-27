@@ -11,13 +11,13 @@ import android.widget.TextView;
  * Created by libo on 2017/11/27.
  */
 
-public class MoveTextView extends LinearLayout{
+public class MoveView extends LinearLayout{
     private View rootView;
     private ImageView ivAvator;
     private TextView tvName;
     private TextView tvContent;
 
-    public MoveTextView(Context context,DanmuBean danmuBean) {
+    public MoveView(Context context, DanmuBean danmuBean) {
         super(context);
 
         rootView = inflate(context,R.layout.item,null);
