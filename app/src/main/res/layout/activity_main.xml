@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    android:paddingTop="22dp"
+    tools:context="com.example.danmu.danmu.MainActivity">
+
+    <com.example.danmu.danmu.DanmuView
+        android:id="@+id/danmuview"
+        android:layout_width="match_parent"
+        android:layout_height="280dp" />
+
+</LinearLayout>
